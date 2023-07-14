@@ -19,10 +19,14 @@
     "react-dom": "^18.2"
   },
   "devDependencies": {
+    "@sanity/client": "^6.1.7",
+    "@sanity/image-url": "^1.0.2",
     "@types/node": "^18.11.11",
     "@types/react": "^18",
     "eslint": "^8.29.0",
     "eslint-config-next": "^13",
+    "styled-component": "^2.8.0",
+    "styled-components": "^6.0.4",
     "typescript": "^4.9.4"
   }
 }
