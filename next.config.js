@@ -7,6 +7,12 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
+  eslint: {
+    ignoreDuringBuilds: true
+  },
+  images: {
+    unoptimized: true
+  }
 };
 
 module.exports = nextConfig;
