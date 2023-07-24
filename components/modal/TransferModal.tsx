@@ -3,6 +3,7 @@ import Transfer from "./Transfer";
 import styled from "styled-components";
 import { TailSpin } from "react-loader-spinner";
 import CoinSelector from "./CoinSelector";
+import Receive from "./Receive.";
 
 interface TransferModalProps {
   sanityToken: any;
@@ -48,7 +49,13 @@ const TransferModal = ({
           />
         );
       case "receive":
-        return <h2>receive</h2>;
+        return (
+          <Receive
+            setAction={setAction}
+            selectedToken={selectedToken}
+            walletAddress={walletAddress}
+          />
+        );
       case "select":
         return (
           <CoinSelector
@@ -71,7 +78,7 @@ const TransferModal = ({
             />
           </LoadingWrapper>
         );
-      case 'transferred':
+      case "transferred":
         return (
           <Transfer
             selectedToken={selectedToken}
