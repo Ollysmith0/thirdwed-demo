@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
+import "react-toastify/dist/ReactToastify.css";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.

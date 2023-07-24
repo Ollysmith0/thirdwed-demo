@@ -1,3 +1,3 @@
-import db from './db';
+import coins from './coins';
 
-export const schemaTypes = [db]
+export const schemaTypes = [coins];

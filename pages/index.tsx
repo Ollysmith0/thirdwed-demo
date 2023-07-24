@@ -1,10 +1,11 @@
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import styled from "styled-components";
 import { NextPage } from "next";
-import Dashboard from './Dashboard';
+import Dashboard from "./Dashboard";
 
 const Home: NextPage = () => {
   const address = useAddress();
+
   return (
     <Wrapper>
       {address ? (

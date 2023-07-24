@@ -1,6 +1,6 @@
 export default {
   title: 'Coins',
-  name: 'coin',
+  name: 'coins',
   type: 'document',
   fields: [
     {
